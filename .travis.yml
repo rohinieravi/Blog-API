@@ -2,7 +2,8 @@ language: node_js
 node_js: node
 deploy:
   provider: heroku
-  api_key: ''
+  api_key:
+    secure: pDj1MnAj/JtIlJU5IV//9XD+UOrmzYCaoymEwe9wpvt3SNnT997VbNYMKtfECHt0+gBoovoiAESuM7JNowGdAWAakKkzzT7X0IkQlDYnfBPv1EwK4X7Ac6Zxj/fslpH1W8jFDW83b7ae83YfLpNrIGevZdTlWLlxha6oFECq9yEkbUWPw6t1g6U0Wbd+y55xK2+4dZ4pEsiZTCK1fWHjwiPh2Dsb0l4LzNGIINqeAoqP6wqrDkEkiQylAKWqY7rCz4DWZthM7n1fQGMv2+u1pXlE3aHFhB9h/7sI/orWSd2DFh1AgX1+2c5D1R492viEfMdU4Aez3Kq54humDRE6qXj76/PBH8TjRFxn4zmIgnMbcelEkliIICxRBDWtLxfqkRZecZcegvVDm2GWqiHW6N0nJJo12k8mEiA7rl1JTy/kVzxOMDTEuN0Mxy2tWS4jJgVFMVODkpunkx+o1F5+0s2O/f5xZafCJ/P6Da7OF4MnRnhGYJNSmWwfxYwTTCNAoMJjy99VDfCsDLVEwbvf4RixzSfnpMLuYGGpbzBP9Sx0rJ/Q9oRhYJ3YTIeyIGO04FwRNswc5KBak+k/104MGBbgfoKVdebTmfMiKibpkAOOTfc/l7zi9LuSktDJ1HBIFwFscQRo09DbGN0FNyNXBeqvajZIEGHB87P0ehZxbwI=
   app: sleepy-chamber-75405
   on:
     repo: rohinieravi/Blog-API
